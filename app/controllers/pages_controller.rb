@@ -1,7 +1,9 @@
 class PagesController < ApplicationController
   def index
   end
-
+  
+  def pokeanime
+    render :pokeanime
 
   def shado
     render :shado
