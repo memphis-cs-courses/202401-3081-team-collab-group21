@@ -9,5 +9,5 @@ Rails.application.routes.draw do
   # root "posts#index"
   root 'pages#index'
 
-  get 'Spongehubman', to: 'pages#Spongehubman', as: 'Spongehubman'
+  get 'Spongehubman', to: 'pages#Spongehubman', as: 'spongehubman'
 end
