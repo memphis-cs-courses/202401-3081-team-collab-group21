@@ -2,6 +2,11 @@ class PagesController < ApplicationController
   def index
   end
 
+
+  def shado
+    render :shado
+  end
+
   def spongehubman
     render :spongehubman
   end
