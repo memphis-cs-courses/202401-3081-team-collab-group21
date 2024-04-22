@@ -10,4 +10,9 @@ Rails.application.routes.draw do
   root 'pages#index'
 
   get 'shado', to: 'pages#shado', as: 'shado'
+
+  get 'spongehubman', to: 'pages#spongehubman', as: 'spongehubman'
+
+  get 'alexfiodorov02', to: 'pages#alexfiodorov02', as: 'alexfiodorov02'
+
 end
